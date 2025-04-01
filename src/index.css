@@ -21,6 +21,28 @@
   --color-Teal-Blue: #679499;
 }
 
+.stamp-border {
+  /* Change this value to adjust the stamp perforation size: */
+  --radius: 10px;
+
+  background-image: 
+    radial-gradient(
+      var(--radius),
+      transparent 98%,
+      #F5F5DC
+    ),
+    linear-gradient(#F5F5DC 0 0);
+  background-repeat: 
+    round, 
+    no-repeat;
+  background-position:
+    calc(var(--radius) * -1.5) calc(var(--radius) * -1.5),
+    50%;
+  background-size:
+    calc(var(--radius) * 3) calc(var(--radius) * 3),
+    calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+}
+
 /* 
 
 a {

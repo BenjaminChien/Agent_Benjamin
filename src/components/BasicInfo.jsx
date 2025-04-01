@@ -1,6 +1,6 @@
 const BasicInfo = ({info}) =>{
     return(
-        <div className="w-2xs bg-Beige rounded-md border-1 border-solid p-2 mt-2 rotate-5">
+        <div className="w-2xs bg-Beige rounded-md border-1 border-solid p-2 mt-7 rotate-5">
             {/*Card content*/}
             <div className="space-y-3">
                 {/*Name*/}
@@ -36,8 +36,8 @@ const BasicInfo = ({info}) =>{
                                     <a className="underline" href="#">Full Resume</a>
                                 </div>
                                 <div className="text-right pt-2">
-                                    <a href="" className="inline-block pr-1"><img src="/linkedin.png" alt="Linkedin Link"/></a>
-                                    <a href="" className="inline-block pr-1"><img src="/github.png" alt="github Link"/></a>
+                                    <a href="https://www.linkedin.com/in/%E9%82%A6%E4%B8%9E-%E7%B0%A1-b3ba97209/?locale=en_US" className="inline-block pr-1" target="_blank"><img src="/linkedin.png" alt="Linkedin Link"/></a>
+                                    <a href="https://github.com/BenjaminChien" target="_blank" className="inline-block pr-1"><img src="/github.png" alt="github Link"/></a>
                                 </div>
                             </td>
                         </tr>
