@@ -7,6 +7,8 @@ import Education from './components/Education.jsx'
 
 import about from './assets/about.js'
 import experience from './assets/experience.js'
+import education from './assets/education.js'
+
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <BasicInfo></BasicInfo>
       <About info={about.content}></About>
       <Experience info={experience}></Experience>
-      <Education></Education>
+      <Education info={education}></Education>
     </>
   )
 }
