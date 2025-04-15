@@ -3,17 +3,19 @@ const expertise = [
       category: "Front-End Development",
       note: "Field operative demonstrated exceptional front-end capabilities in multiple missions.",
       skills: [
-        { name: "HTML", level: "star" },
-        { name: "CSS", level: "star" },
         { name: "JavaScript", level: "star" },
-        { name: "React.js", level: "check" },
+        { name: "CSS", level: "star" },
+        { name: "HTML", level: "star" },
         { name: "Vue.js", level: "star" },
+        { name: "React.js", level: "check" },
+        { name: "TailwindCSS", level: "check" },
         { name: "CSS3 Animation", level: "check" },
         { name: "RWD", level: "star" },
         { name: "jQuery", level: "check" },
         { name: "AJAX", level: "star" },
         { name: "Web APIs", level: "star" },
-        { name: "SASS", level: "slash" },
+        { name: "SASS", level: "check" },
+        { name: "Vite", level: "check" },
         { name: "Webpack", level: "check" }
       ]
     },
