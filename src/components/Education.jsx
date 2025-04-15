@@ -24,7 +24,7 @@ const EducationItems = (info) => {
 const Education = (info) => {
     return(
         <div className="bg-Dark-Chocolate w-2xs px-1 py-1">
-            <div className="border-3 border-Linen text-Linen">
+            <div className="border-3 border-Linen text-Beige">
                 <h2 className="font-Title text-3xl text-center border-b-2 pt-1">Education</h2>
                 {info.info.map((item, index)=>(
                     <EducationItems key={index} info={item}></EducationItems>
