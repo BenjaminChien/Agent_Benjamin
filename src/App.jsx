@@ -16,12 +16,18 @@ function App() {
   return (
     <div className='w-fit mx-auto'>
       <Stamp></Stamp>
-      <img src="/profile_photo.png" alt="Profile_Photo"></img>
-      <BasicInfo></BasicInfo>
-      <About info={about.content}></About>
-      <Experience info={experience}></Experience>
-      <Education info={education}></Education>
-      <Expertise info={expertise}></Expertise>
+      <div className='md:flex gap-8'>
+        <div className=''>  
+          <img src="/profile_photo.png" alt="Profile_Photo"></img>
+          <BasicInfo></BasicInfo>
+        </div>
+        <div className=''>
+          <About info={about.content}></About>
+          <Experience info={experience}></Experience>
+          <Education info={education}></Education>
+          <Expertise info={expertise}></Expertise>
+        </div>
+      </div>
     </div>
   )
 }
