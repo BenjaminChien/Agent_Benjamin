@@ -21,8 +21,7 @@ const ExperienceItem = (info) =>{
 
 const Experience = (info) => {
     return (
-    <div className="mt-5 py-3 w-2xs">
-
+    <div className="mt-5 py-3">
         {/* title component */}
         <div className="relative bg-Beige px-4 mb-4 inline-block text-3xl font-Title">
             {/* Top-left triangle */}

@@ -7,12 +7,12 @@ const BasicInfo = ({info}) =>{
                 <h1 className="text-4xl font-Title text-center">Benjamin Chien</h1>
 
                 {/*Title*/}
-                <div className="text-base font-Title text-Beige text-center px-10">
+                <div className="text-lg font-Title text-Beige text-center px-10">
                     <div className="bg-Crimson">Full-stack Developer</div>
                 </div>
 
                 {/*Detail table*/}
-                <table className="font-Content text-xs text-center table-fixed border-collapse w-full">
+                <table className="font-Content text-sm text-center table-fixed border-collapse w-full">
                     <tbody>
                         <tr className="border border-gray-500">
                             <td className="">Date of Birth</td>

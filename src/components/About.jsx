@@ -1,7 +1,7 @@
 const About = ({info}) =>{
 
     return(
-        <div className="stamp-border mt-5 px-4 py-3 w-2xs">
+        <div className="stamp-border mt-5 px-5 py-4">
             <h2 className="text-3xl font-Title">About</h2>
             {/*paragraph*/}
             {info.trim().split(/\n\s*\n/).map((paragraph, index)=>(
