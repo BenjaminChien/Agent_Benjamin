@@ -4,11 +4,11 @@ const BasicInfo = ({info}) =>{
             {/*Card content*/}
             <div className="space-y-3">
                 {/*Name*/}
-                <h1 className="text-4xl font-Title text-center">Benjamin Chien</h1>
+                <h1 className="text-4xl font-Title text-center">{info.name}</h1>
 
                 {/*Title*/}
                 <div className="text-lg font-Title text-Beige text-center px-10">
-                    <div className="bg-Crimson">Full-stack Developer</div>
+                    <div className="bg-Crimson">{info.title}</div>
                 </div>
 
                 {/*Detail table*/}
@@ -20,24 +20,24 @@ const BasicInfo = ({info}) =>{
                             <td className="">Language</td>
                         </tr>
                         <tr className="border border-gray-500">
-                            <td className="">1999/06/16</td>
-                            <td className="">Taipei</td>
-                            <td className="">Chinese, English</td>
+                            <td className="">{info.birthDate}</td>
+                            <td className="">{info.location}</td>
+                            <td className="">{info.language}</td>
                         </tr>
 
                         <tr className="border border-gray-500">
                             <td colSpan={3} className="py-1">
                                 <div className="text-left px-2 py-1">
                                     <span>E-mail </span>
-                                    <span className="underline">ben19990616@gmail.com</span>
+                                    <span className="underline">{info.email}</span>
                                 </div>
                                 <div className="text-left px-2 py-1">
                                     <span>Full Resume </span>
-                                    <a className="underline" href="#">Full Resume</a>
+                                    <a className="underline" href={info.links.resume} target="_blank">Full Resume</a>
                                 </div>
                                 <div className="text-right pt-2">
-                                    <a href="https://www.linkedin.com/in/%E9%82%A6%E4%B8%9E-%E7%B0%A1-b3ba97209/?locale=en_US" className="inline-block pr-1" target="_blank"><img src="/linkedin.png" alt="Linkedin Link"/></a>
-                                    <a href="https://github.com/BenjaminChien" target="_blank" className="inline-block pr-1"><img src="/github.png" alt="github Link"/></a>
+                                    <a href={info.links.linkedIn} className="inline-block pr-1" target="_blank"><img src="/linkedin.png" alt="Linkedin Link"/></a>
+                                    <a href={info.links.github} target="_blank" className="inline-block pr-1"><img src="/github.png" alt="github Link"/></a>
                                 </div>
                             </td>
                         </tr>

@@ -7,6 +7,7 @@ import Education from './components/Education.jsx'
 import Expertise from './components/Expertise.jsx'
 import Footer from './components/Footer.jsx'
 
+import basicInfo from './assets/basicInfo.js'
 import about from './assets/about.js'
 import experience from './assets/experience.js'
 import education from './assets/education.js'
@@ -20,7 +21,7 @@ function App() {
       <div className='lg:flex'>
         <div className='top-10 lg:w-md lg:px-20 lg:fixed lg:z-10'>  
           <img className='pt-4' src="/profile_photo.png" alt="Profile_Photo"></img>
-          <BasicInfo></BasicInfo>
+          <BasicInfo info={basicInfo}></BasicInfo>
         </div>
         <div className='w-2xs lg:w-auto lg:pr-20 lg:pl-110'>
           <About info={about.content}></About>
