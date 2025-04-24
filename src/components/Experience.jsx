@@ -14,6 +14,15 @@ const ExperienceItem = (info) =>{
                         <li key={index}>{responsibilitie}</li>
                     ))}
                 </ul>
+                {
+                    (info.info.links.link==null)?null: (
+                    <>
+                    <a className="font-Content pr-2 underline" href={info.info.links.link} target="_blank">Project link</a>
+                    <a className="font-Content underline" href={info.info.links.github} target="_blank">Project Github</a>
+                    </>
+                    )
+                }
+               
             </div>  
         </div>
     )

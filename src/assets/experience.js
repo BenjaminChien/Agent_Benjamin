@@ -13,7 +13,11 @@ const experience = [
         "MSSQL database management (HR and ERP systems)",
         "Project version control (Git)",
         "Product debugging and specification documentation maintenance"
-      ]
+      ],
+    links:{
+        link:null,
+        github:null
+    }
     },
     {
         date: "2023/06 - 2023/08",
@@ -29,8 +33,8 @@ const experience = [
           "Database: Designed and built the database with PHP and MySQL.",
         ],
         links:{
-            Link:"",
-            Github:""
+            link:"https://tibamef2e.com/chd102/g5/home",
+            github:"https://github.com/T-Hsuan/Daily.TW"
         }
     },
     {
@@ -47,8 +51,8 @@ const experience = [
           "Carousel Component (Swiper): For dynamic and interactive content presentation.",
         ],
         links:{
-            Link:"",
-            Github:""
+            link:"https://benjaminchien.github.io/Rooster_Travel/",
+            github:"https://github.com/BenjaminChien/Rooster_Travel"
         }
     }
   ];
